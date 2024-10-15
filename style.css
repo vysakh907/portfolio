@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+/* p{
+    font-family: "Playwrite BE VLG", cursive;
+} */
+.cotainer{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+#logo{
+    height: 90px;
+    width: 130px;
+  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+}
+.list-item{
+    display: inline;
+    margin: 20px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 550;
+}
+#home-content{
+    margin: 20% 0% 0% 10%;
+    
+}
+#uname{
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-family: "Playwrite BE VLG", cursive;
+}
+#lname{
+    color: chocolate;
+    margin-left: 10px;
+    
+ 
+}
+#cv{
+    text-decoration: none;
+    border: 5px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+#para{
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+
+#thumb{
+    height: 370px;
+}
+#carpet{
+    width: 410px;
+    height: 400px;
+}
+
+#image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    top: 30px;
+   right: 20px;
+}
+.loop{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left:50%
+    transform: translateX(-50%)
+    transition: left 1`s;
+   
+    
+}
+#image:hover #carpet{
+    bottom: 10px;
+    transition: bottom 2s;
+
+}
+#image:hover #thumb{
+    left: 20px;
+    
+}
+.about{
+    margin: 13% 8% 0% 8% ;
+}
+.section-head{
+    text-align: center;
+}
+#main-head{
+    font-size: 40px;
+    font-family:"Playwrite BE VLG", cursive ;
+}
+#sub-head{
+    font-size: 20px;
+    color: cadetblue;
+    font-style: italic;
+}
+.section-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+div img{
+    height: 340px;
+    width: 370px;
+}
+.about-content{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 120px;
+}
+.information{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.info-box>span{
+    margin-left: 20px;
+    
+}
+.info-box{
+    margin-top: 20px;
+}
+#link:hover{
+    color: chocolate;
+    text-decoration: underline;
+}  
+#skills{
+    margin: 8% 8% 0% 8%;
+}
+.skill-content{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    align-items: center;
+    margin-top: 40px;
+    gap: 2rem;
+}
+.skillimg{
+    width: 100%;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    position: relative;
+}
+.base-bar{
+    height: 0.6rem;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+.html-bar{
+    background-color: rgb(185, 63, 11);
+    width: 70%;
+}
+      
+.css-bar{
+    background-color: rgb(185, 63, 11);
+    width: 75%;
+
+}
+.js-bar{
+    background-color: rgb(185, 63, 11);
+    width: 75%;
+   
+}
